@@ -30,6 +30,7 @@ public class detailes extends AppCompatActivity {
         CustomListAdapter adapterinstance=new CustomListAdapter(this,vi.getAllContacts());
         layout.setAdapter(adapterinstance);
     }
+
 }
 
 

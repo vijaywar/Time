@@ -1,4 +1,4 @@
-package com.moonlight.time;
+ package com.moonlight.time;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -111,5 +111,10 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu,menu);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    public void Schedule(View view) {
+        Intent news=new Intent(this,jobschedule.class);
+        startActivity(news);
     }
 }
